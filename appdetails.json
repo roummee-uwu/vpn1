@@ -1,5 +1,5 @@
 {
-  "ads":"true",
+  "ads":"false",
   "update":[{
     "version":"1.0.2022",
     "title":"Новый сервер - в Молдавии!",
@@ -16,6 +16,6 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Кишинёв","country":"Germany","image":"germany","ip":"213.226.100.139","active":"true","signal":"a"}
+    {"id":0, "file":0, "city":"Moldavia","country":"Germany","image":"germany","ip":"213.226.100.139","active":"true","signal":"a"}
   ]
 }
