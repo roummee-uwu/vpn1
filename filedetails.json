@@ -1,83 +1,83 @@
 {
   "ovpn_file":[
     {"id":0,"file":"
-client
-proto udp
-explicit-exit-notify
-remote 213.226.100.139 1194
-dev tun
-resolv-retry infinite
-nobind
-persist-key
-persist-tun
-remote-cert-tls server
-verify-x509-name server_BClf3GOBwPUWfiOF name
-auth SHA256
-auth-nocache
-cipher AES-128-GCM
-tls-client
-tls-version-min 1.2
-tls-cipher TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256
-ignore-unknown-option block-outside-dns
-setenv opt block-outside-dns # Prevent Windows 10 DNS leak
-verb 3
-<ca>
------BEGIN CERTIFICATE-----
-MIIB1jCCAX2gAwIBAgIUbn4NRqTzxtPhtvQUQ2P3irrhxFQwCgYIKoZIzj0EAwIw
-HjEcMBoGA1UEAwwTY25faFhtNDJPdnY4SzV6ZndGMzAeFw0yMjA2MTkxNjQzNTZa
-Fw0zMjA2MTYxNjQzNTZaMB4xHDAaBgNVBAMME2NuX2hYbTQyT3Z2OEs1emZ3RjMw
-WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAT8+foyPEzbHdM0+mRSk6VQB8cqViFs
-PgooNqWQqPJiFiBX9aX3y+7CNv9170WDo+GEed1GYEL0UF8rtmlrX2vGo4GYMIGV
-MB0GA1UdDgQWBBQsG24BmaMNcj1scdippL5a8/LgizBZBgNVHSMEUjBQgBQsG24B
-maMNcj1scdippL5a8/Lgi6EipCAwHjEcMBoGA1UEAwwTY25faFhtNDJPdnY4SzV6
-ZndGM4IUbn4NRqTzxtPhtvQUQ2P3irrhxFQwDAYDVR0TBAUwAwEB/zALBgNVHQ8E
-BAMCAQYwCgYIKoZIzj0EAwIDRwAwRAIgI3Lq/XMhfqU+KY+kDFA0hGWv3+ai0neK
-B3MPTzhudbYCIAqBR1UhQABPZ29ub0EMBBCp73dBjjIl7VjZfW35j5Wn
------END CERTIFICATE-----
-</ca>
-<cert>
------BEGIN CERTIFICATE-----
-MIIB2jCCAX+gAwIBAgIQWlPGkhmp3awp0cB7tPcgODAKBggqhkjOPQQDAjAeMRww
-GgYDVQQDDBNjbl9oWG00Mk92djhLNXpmd0YzMB4XDTIyMDYxOTE2NDQ1MFoXDTI0
-MDkyMTE2NDQ1MFowEjEQMA4GA1UEAwwHZGVmYXVsdDBZMBMGByqGSM49AgEGCCqG
-SM49AwEHA0IABCIfFLCcrDQ0iNNjJ6ld1sElrqFNqBXvktjZJuAhqFnoN69l2Ywy
-25vdWAw9mjpypBSumER3x408hgjlVyiUvuejgaowgacwCQYDVR0TBAIwADAdBgNV
-HQ4EFgQUa3dX1UH4gMRpwkpZN2rQ0YQnKAEwWQYDVR0jBFIwUIAULBtuAZmjDXI9
-bHHYqaS+WvPy4IuhIqQgMB4xHDAaBgNVBAMME2NuX2hYbTQyT3Z2OEs1emZ3RjOC
-FG5+DUak88bT4bb0FENj94q64cRUMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1Ud
-DwQEAwIHgDAKBggqhkjOPQQDAgNJADBGAiEA+O5vshqe4naSKgcZUG6JSCoe1lRk
-Ysi79auJeJDf/UwCIQCj4d5KrPMVCcmqcdod5U1NQuRVy1jk7rxEa8pEQkR1tg==
------END CERTIFICATE-----
-</cert>
-<key>
------BEGIN PRIVATE KEY-----
-MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgw+dp+J6E5mSphyZ8
-WEybkT1beERjOsMJMbh7OIBk7DGhRANCAAQiHxSwnKw0NIjTYyepXdbBJa6hTagV
-75LY2SbgIahZ6DevZdmMMtub3VgMPZo6cqQUrphEd8eNPIYI5VcolL7n
------END PRIVATE KEY-----
-</key>
-<tls-crypt>
-#
-# 2048 bit OpenVPN static key
-#
------BEGIN OpenVPN Static key V1-----
-72289027aa23d8e6b06bf0b52ccb531a
-3b60ffc874c54626237ea0d14abd0d37
-c945a7428ae51a812dba6d346c5b82b5
-658328026015951e6e94342c2b247d7d
-bc168fe8b7ee2182166c74843c3c74de
-f3bdbbce8e6029930898f3368ee593ff
-0243eda1b3a4b166b35aef8ebe6c35f9
-ed9da275debf2952cf0adf2add2f8afb
-7e7bc04c7f24dcd862792b302f255b12
-8c3e2790d0b21c15296e790a59b827d9
-86b2d85aeb0afeea6efbea481f8f1d25
-df338ad3b3a535d4f10fce394cdc219b
-d17dfaef1b64e36e963c0a9ea276e1fc
-c2f49640c6f2ae8ea7e7b16d69c79d23
-05139a80e548abcc003f99d765e077d9
-e3e949839aa0d30803bdb3fa1f0110e3
------END OpenVPN Static key V1-----
-</tls-crypt>"},
-    ]
+    client
+    proto udp
+    explicit-exit-notify
+    remote 213.226.100.139 1194
+    dev tun
+    resolv-retry infinite
+    nobind
+    persist-key
+    persist-tun
+    remote-cert-tls server
+    verify-x509-name server_BClf3GOBwPUWfiOF name
+    auth SHA256
+    auth-nocache
+    cipher AES-128-GCM
+    tls-client
+    tls-version-min 1.2
+    tls-cipher TLS-ECDHE-ECDSA-WITH-AES-128-GCM-SHA256
+    ignore-unknown-option block-outside-dns
+    setenv opt block-outside-dns # Prevent Windows 10 DNS leak
+    verb 3
+    <ca>
+    -----BEGIN CERTIFICATE-----
+    MIIB1jCCAX2gAwIBAgIUbn4NRqTzxtPhtvQUQ2P3irrhxFQwCgYIKoZIzj0EAwIw
+    HjEcMBoGA1UEAwwTY25faFhtNDJPdnY4SzV6ZndGMzAeFw0yMjA2MTkxNjQzNTZa
+    Fw0zMjA2MTYxNjQzNTZaMB4xHDAaBgNVBAMME2NuX2hYbTQyT3Z2OEs1emZ3RjMw
+    WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAT8+foyPEzbHdM0+mRSk6VQB8cqViFs
+    PgooNqWQqPJiFiBX9aX3y+7CNv9170WDo+GEed1GYEL0UF8rtmlrX2vGo4GYMIGV
+    MB0GA1UdDgQWBBQsG24BmaMNcj1scdippL5a8/LgizBZBgNVHSMEUjBQgBQsG24B
+    maMNcj1scdippL5a8/Lgi6EipCAwHjEcMBoGA1UEAwwTY25faFhtNDJPdnY4SzV6
+    ZndGM4IUbn4NRqTzxtPhtvQUQ2P3irrhxFQwDAYDVR0TBAUwAwEB/zALBgNVHQ8E
+    BAMCAQYwCgYIKoZIzj0EAwIDRwAwRAIgI3Lq/XMhfqU+KY+kDFA0hGWv3+ai0neK
+    B3MPTzhudbYCIAqBR1UhQABPZ29ub0EMBBCp73dBjjIl7VjZfW35j5Wn
+    -----END CERTIFICATE-----
+    </ca>
+    <cert>
+    -----BEGIN CERTIFICATE-----
+    MIIB2jCCAX+gAwIBAgIQWlPGkhmp3awp0cB7tPcgODAKBggqhkjOPQQDAjAeMRww
+    GgYDVQQDDBNjbl9oWG00Mk92djhLNXpmd0YzMB4XDTIyMDYxOTE2NDQ1MFoXDTI0
+    MDkyMTE2NDQ1MFowEjEQMA4GA1UEAwwHZGVmYXVsdDBZMBMGByqGSM49AgEGCCqG
+    SM49AwEHA0IABCIfFLCcrDQ0iNNjJ6ld1sElrqFNqBXvktjZJuAhqFnoN69l2Ywy
+    25vdWAw9mjpypBSumER3x408hgjlVyiUvuejgaowgacwCQYDVR0TBAIwADAdBgNV
+    HQ4EFgQUa3dX1UH4gMRpwkpZN2rQ0YQnKAEwWQYDVR0jBFIwUIAULBtuAZmjDXI9
+    bHHYqaS+WvPy4IuhIqQgMB4xHDAaBgNVBAMME2NuX2hYbTQyT3Z2OEs1emZ3RjOC
+    FG5+DUak88bT4bb0FENj94q64cRUMBMGA1UdJQQMMAoGCCsGAQUFBwMCMAsGA1Ud
+    DwQEAwIHgDAKBggqhkjOPQQDAgNJADBGAiEA+O5vshqe4naSKgcZUG6JSCoe1lRk
+    Ysi79auJeJDf/UwCIQCj4d5KrPMVCcmqcdod5U1NQuRVy1jk7rxEa8pEQkR1tg==
+    -----END CERTIFICATE-----
+    </cert>
+    <key>
+    -----BEGIN PRIVATE KEY-----
+    MIGHAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBG0wawIBAQQgw+dp+J6E5mSphyZ8
+    WEybkT1beERjOsMJMbh7OIBk7DGhRANCAAQiHxSwnKw0NIjTYyepXdbBJa6hTagV
+    75LY2SbgIahZ6DevZdmMMtub3VgMPZo6cqQUrphEd8eNPIYI5VcolL7n
+    -----END PRIVATE KEY-----
+    </key>
+    <tls-crypt>
+    #
+    # 2048 bit OpenVPN static key
+    #
+    -----BEGIN OpenVPN Static key V1-----
+    72289027aa23d8e6b06bf0b52ccb531a
+    3b60ffc874c54626237ea0d14abd0d37
+    c945a7428ae51a812dba6d346c5b82b5
+    658328026015951e6e94342c2b247d7d
+    bc168fe8b7ee2182166c74843c3c74de
+    f3bdbbce8e6029930898f3368ee593ff
+    0243eda1b3a4b166b35aef8ebe6c35f9
+    ed9da275debf2952cf0adf2add2f8afb
+    7e7bc04c7f24dcd862792b302f255b12
+    8c3e2790d0b21c15296e790a59b827d9
+    86b2d85aeb0afeea6efbea481f8f1d25
+    df338ad3b3a535d4f10fce394cdc219b
+    d17dfaef1b64e36e963c0a9ea276e1fc
+    c2f49640c6f2ae8ea7e7b16d69c79d23
+    05139a80e548abcc003f99d765e077d9
+    e3e949839aa0d30803bdb3fa1f0110e3
+    -----END OpenVPN Static key V1-----
+    </tls-crypt>"},
+    {"id":1,"file":""}]
 }
