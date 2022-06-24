@@ -1,6 +1,7 @@
 {
   "ovpn_file":[
-    {"id":0,"file":"client
+    {"id":0,"file":"
+client
 proto udp
 explicit-exit-notify
 remote 213.226.100.139 1194
