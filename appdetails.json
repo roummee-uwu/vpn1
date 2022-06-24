@@ -16,6 +16,6 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Молдавия, судя по флагу","country":"United States","image":"unitedstates","ip":"213.226.100.139","active":"true","signal":"a"},
+    {"id":0, "file":0, "city":"Moldavia","country":"United States","image":"unitedstates","ip":"213.226.100.139","active":"true","signal":"a"},
   ]
 }
