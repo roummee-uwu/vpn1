@@ -1,9 +1,9 @@
 {
-  "ads":"true",
+  "ads":"false",
   "update":[{
     "version":"",
     "title":"Note",
-    "description":"If you have instal to connect to our VPN",
+    "description":"",
     "size":""
   }],
   "blocked":[
