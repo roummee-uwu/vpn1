@@ -1,4 +1,4 @@
-{
+
   "blocked":[
     {"id":0, "app":"com.android.game"},
     {"id":1, "app":"com.utorrent.client"},
@@ -9,5 +9,4 @@
     {"id":6, "app":"com.get.client"}
   ],
   "free":[
-    {"id":0, "file":0, "city":"Moldavia","country":"Germany","image":"germany","ip":"213.226.100.139","active":"true","signal":"a"}
-}
+    {"id":0, "file":0, "city":"Moldavia","country":"Germany","image":"germany","ip":"213.226.100.139","active":"true","signal":"a"}]
