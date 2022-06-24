@@ -1,11 +1,5 @@
 {
-  "ads":"false",
-  "update":[{
-    "version":"1.0.2022",
-    "title":"Новый сервер - в Молдавии!",
-    "description":"круто?",
-    "size":"https://git.io/JeY69"
-  }],
+}],
   "blocked":[
     {"id":0, "app":"com.android.game"},
     {"id":1, "app":"com.utorrent.client"},
